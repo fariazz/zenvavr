@@ -1,7 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace VRStandardAssets.Utils
+// this scrip comes from the Unity VR Standard Assets package. Changed the namespace to prevent conflicts
+namespace Zenva.VR
 {
     // The reticle is a small point at the centre of the screen.
     // It is used as a visual aid for aiming. The position of the
