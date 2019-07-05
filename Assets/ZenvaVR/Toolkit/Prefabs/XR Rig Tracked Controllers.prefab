@@ -59,7 +59,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3839977344141895645}
   m_Layer: 0
-  m_Name: XR Rig
+  m_Name: XR Rig Tracked Controllers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -330,7 +330,7 @@ GameObject:
   - component: {fileID: 3839977345218031902}
   m_Layer: 0
   m_Name: Head Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
