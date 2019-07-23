@@ -43,7 +43,7 @@ namespace Zenva.VR
 
                 EndPosition = target.point;
 
-                currInteractable = target.transform.GetComponent<Interactable>();
+                currInteractable = target.collider.transform.GetComponent<Interactable>();
 
                 // call selection method
                 if (currInteractable)
