@@ -12,8 +12,11 @@ namespace Zenva.VR
         [Tooltip("Show ray for debugging")]
         public bool isDebug;
 
-        // start position of the pointer
+        [Tooltip("Start position of the pointer")]
         public Transform origin;
+
+        [Tooltip("Layers we want the pointer to detect")]
+        public LayerMask detectedLayers = ~0; 
 
         // end position of the pointer
         public Vector3 EndPosition { get; private set; }
@@ -33,11 +36,10 @@ namespace Zenva.VR
 
         void Raycast()
         {
-
             RaycastHit target;
 
             // we found an object
-            if (Physics.Raycast(origin.position, transform.forward, out target, maxDistance))
+            if (Physics.Raycast(origin.position, transform.forward, out target, maxDistance, detectedLayers.value))
             {
                 Target = target;
 

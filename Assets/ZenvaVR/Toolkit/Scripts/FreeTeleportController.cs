@@ -7,6 +7,9 @@ namespace Zenva.VR
     [RequireComponent(typeof(LineRenderer))]
     public class FreeTeleportController : MonoBehaviour
     {
+        [Tooltip("Player rig we want to move")]
+        public Transform playerRig;
+
         [Tooltip("Hand which will control the free teleportation")]
         public Transform pointerHand;
 
@@ -94,7 +97,7 @@ namespace Zenva.VR
             if(isShowing)
             {
                 // player position will be equal to the target position
-                transform.position = targetObj.transform.position;
+                playerRig.position = targetObj.transform.position;
                 HideTarget();
             }
         }

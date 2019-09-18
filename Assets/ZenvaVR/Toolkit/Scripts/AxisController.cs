@@ -77,7 +77,7 @@ namespace Zenva.VR
         {
             // get the device we want to check
             InputDevices.GetDevicesWithRole(deviceRole, devices);
-
+           
             // go through our devices
             for(int i = 0; i < devices.Count; i++)
             {
