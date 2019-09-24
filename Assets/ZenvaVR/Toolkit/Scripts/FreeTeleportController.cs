@@ -98,7 +98,7 @@ namespace Zenva.VR
             {
                 // player position will be equal to the target position
                 playerRig.position = targetObj.transform.position;
-                HideTarget();
+                //HideTarget();
             }
         }
 
