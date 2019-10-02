@@ -39,7 +39,7 @@ namespace Zenva.VR
                 item = other.GetComponent<Grabbable>();
 
                 // start grabbing
-                item.Grab(this);
+                item.Grab(gameObject);
             }            
         }
     }

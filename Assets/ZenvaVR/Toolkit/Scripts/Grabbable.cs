@@ -25,7 +25,7 @@ namespace Zenva.VR
         public UnityEvent OnRelease;
         
         // who is grabbing this
-        GrabController grabCtrl;
+        GameObject grabCtrl;
 
         // original position and rotation
         Vector3 originalPosition;
@@ -63,7 +63,7 @@ namespace Zenva.VR
         }
 
 
-        public void Grab(GrabController grabCtrl)
+        public void Grab(GameObject grabCtrl)
         {
             // can be called if already grabbing
             if (this.grabCtrl) return;
