@@ -1,5 +1,5 @@
 # zenvavr
-Lightweight, minimal VR library for Unity 2019.3 onwards
+Lightweight, minimal VR library for Unity 2019.3 onwards. For examples check out our [Virtual Reality Game Development Mini-Degree](https://academy.zenva.com/product/the-complete-virtual-reality-game-development-course/?zva_src=github-zenvavr).
 
 **Zenva VR**, is a VR library made at Zenva. It features drag-and-drop components and prefabs to create a wide range of VR experiences. Here are many of the systems the libary includes:
 - Complete VR rigs (both room-scale and stationary)
