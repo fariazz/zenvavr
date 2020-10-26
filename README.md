@@ -9,6 +9,13 @@ Lightweight, minimal VR library for Unity 2019.3 onwards. For examples check out
 - Interactable objects
 - Button and axis detection
 
+# How Was This Library Built?
+This library was developed along side Zenva's VR Courses. If you want to follow along the development of the library, here are the courses which cover the different features:
+- [Headset tracking, controller tracking and controller inputs.](https://academy.zenva.com/product/vr-development-with-controllers/)
+- [Hand grabbing, throw and catch objects.](https://academy.zenva.com/product/hand-grabbing-controllers-in-vr/)
+- [VR pointers and reticle.](https://academy.zenva.com/product/vr-pointers-space-station-app/)
+- [VR callouts.](https://academy.zenva.com/product/unity-vr-development-360-photos-experience/)
+
 # Prefabs
 Here's a look at the included prefabs located in the **ZenvaVR/Toolkit/Prefabs** folder.
 - **XR Rig Tracked Controllers**: Room-scale VR rig with laser pointer hands.
